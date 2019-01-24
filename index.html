@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Favorite Simpsons</title>
+  <style type="text/css">
+    button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Simpsons Gif search</h1>
+
+    <!-- Simpsons will get dumped here -->
+    <div id="simpson-div"></div>
+
+    <form id="simpson-form">
+      <label for="simpson-input">Who is your favorite Simpsons character?</label>
+      <input type="text" id="simpson-input">
+      <input id="add-simpson" type="submit" value="Add!">
+    </form>
+
+    <div id="simpsons-title"></div>
+    <div id="simpsons-rating"></div>
+    <div id="simpsons-url"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="Assets/Javascript/app.js"></script>
+    
+  </div>
+</body>
+
+</html>
