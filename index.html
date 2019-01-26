@@ -14,25 +14,27 @@
       margin: 10px;
     }
   </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
   <div class="container">
-    <img height="250px" src="Assets/images/simpsons.png" />
+    <img height="250px" class="center" src="Assets/images/simpsons.png" />
 
-    <!-- Simpsons will get dumped here -->
+    <!-- Simpsons buttons will get dumped here -->
     <div id="simpson-div"></div>
 
     <form id="simpson-form">
-      <label for="simpson-input">Who is your favorite Simpsons character?</label>
+      <label for="simpson-input" id="questInput">Who is your favorite Simpsons character?</label>
       <input type="text" id="simpson-input">
       <input id="add-simpson" type="submit" value="Add!">
     </form>
-    <div id='simpsonTitle'></div>
-    <div id='simpsonRating'></div>
-    <div id='simpsonGif'></div>
 
+    
+    <div id='simpsonGif'></div>
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="Assets/Javascript/app.js"></script>
