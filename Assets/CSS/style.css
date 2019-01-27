@@ -1,12 +1,18 @@
+body {
+    background-color: #FFD90F;
+}
+
 .searchButton{
     padding: 5px;
     margin: 5px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 12px;
 }
 
 #simpsonGif {
     
     align-content: center;
-    /* border: black 1px dashed; */
+    border: black 1px dashed; 
     min-width: 300px;
 
 }
@@ -23,10 +29,31 @@
     
 }
 
-.center {
+ .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-  }
+    
+ }
 
+.questInput {
+    font-family: 'Rock Salt', cursive;
+    font-size: 16px;
+    color: #007bff;
+    text-shadow: 1px 1px white;
+}
+
+
+#simpsonGif {
+    background-color: rgba(255, 254, 254, 0.856);
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+    margin: 10px;
+    float: left;
+}
+
+/* .soloGif {
+    float: left;
+}  */
