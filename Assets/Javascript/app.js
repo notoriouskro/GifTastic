@@ -34,9 +34,7 @@ function displayGif() {
       img.attr('height', '250px');
       div.append(img);
 
-      div.append("<p><strong>Title:</strong> " + response.data[i].title.charAt(0).toUpperCase() + response.data[i].title.substring(1));
-
-      div.append("<strong>Rating:</strong> " + response.data[i].rating.toUpperCase());
+      div.append("<p>" + response.data[i].title.charAt(0).toUpperCase() + response.data[i].title.substring(1) + "  <br /><strong>Rating:</strong> " + response.data[i].rating.toUpperCase() + "</p>");
 
       $('#simpsonGif').append(div);
     }

@@ -1,5 +1,6 @@
 body {
     background-color: #FFD90F;
+    align-content: center;
 }
 
 .searchButton{
@@ -14,11 +15,6 @@ body {
     align-content: center;
     border: black 1px dashed; 
     min-width: 300px;
-
-}
-
-#simpson-div {
-    align-content: center;
 }
 
 .container {
@@ -42,8 +38,14 @@ body {
     font-size: 16px;
     color: #007bff;
     text-shadow: 1px 1px white;
+    
 }
-
+.questInput {
+    font-family: 'Rock Salt', cursive;
+    font-size: 16px;
+    color: #007bff;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
 
 #simpsonGif {
     background-color: rgba(255, 254, 254, 0.856);
@@ -52,5 +54,10 @@ body {
     padding: 5%;
     margin: 10px;
     float: left;
+    align-content: center;
 }
 
+p {
+    margin: 5px;
+    background-color: rgb(206, 204, 204);
+}
