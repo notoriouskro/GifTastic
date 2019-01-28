@@ -30,7 +30,7 @@ function displayGif() {
       img.attr('data-animate', gifUrl);
       img.attr('data-state', 'still');
       img.attr('class', 'gif');
-      img.attr('width', '250px');
+      img.attr('width', 'auto');
       img.attr('height', '250px');
       div.append(img);
 
